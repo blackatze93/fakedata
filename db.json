@@ -1,1 +1,50 @@
-{"refundMethods":[{"id":"2ae165ad-c749-4a34-be2b-87c0fd4fa5bf","refundType":"VOUCHER","colorTitle":"#FF0093","title":"Voucher","total":116812,"totalPayment":0,"currency":"COP","description":"Recibe en 3 días o menos la totalidad de tu reembolso en un voucher que puedes usar en un nuevo viaje. Tienes 1 año para usarlo.","imageDesktop":"https://storage.googleapis.com/gcp-wingo-pro-public/images/refunds/imagen-voucher-desktop-es.png","imageMobile":"https://storage.googleapis.com/gcp-wingo-pro-public/images/refunds/imagen-voucher-mobile-es.png","show":true,"options":[{"text":"Quiero mi retracto con voucher","order":1}]},{"id":"c97ffcde-4baf-4533-a216-11caad73f151","refundType":"CREDIT_CARD","colorTitle":"#6633CC","title":"Tarjeta de crédito terminada en 5454","total":116812,"currency":"COP","description":"Realizaremos el reembolso a la tarjeta de crédito de tu compra en los próximos 30 días. Los tiempos que toma la entidad financiera para el abono no son responsabilidad de Wingo.","imageDesktop":"Hola","show":true,"options":[{"text":"Reembolso en tarjeta de crédito terminada en 5454","order":2},{"text":"Mi Tarjeta de Crédito terminada en 5454 se encuentra cancelada","order":1},{"text":"Reembolsar en voucher","order":3}]}]}
+{
+    "response": {
+        "refundMethods": [
+            {
+                "id": "2ae165ad-c749-4a34-be2b-87c0fd4fa5bf",
+                "refundType": "VOUCHER",
+                "colorTitle": "#FF0093",
+                "title": "Voucher",
+                "total": 116812,
+                "totalPayment": 0,
+                "currency": "COP",
+                "description": "Recibe en 3 días o menos la totalidad de tu reembolso en un voucher que puedes usar en un nuevo viaje. Tienes 1 año para usarlo.",
+                "imageDesktop": "https://storage.googleapis.com/gcp-wingo-pro-public/images/refunds/imagen-voucher-desktop-es.png",
+                "imageMobile": "https://storage.googleapis.com/gcp-wingo-pro-public/images/refunds/imagen-voucher-mobile-es.png",
+                "show": true,
+                "options": [
+                    {
+                        "text": "Quiero mi retracto con voucher",
+                        "order": 1
+                    }
+                ]
+            },
+            {
+                "id": "c97ffcde-4baf-4533-a216-11caad73f151",
+                "refundType": "CREDIT_CARD",
+                "colorTitle": "#6633CC",
+                "title": "Tarjeta de crédito terminada en 5454",
+                "total": 116812,
+                "currency": "COP",
+                "description": "Realizaremos el reembolso a la tarjeta de crédito de tu compra en los próximos 30 días. Los tiempos que toma la entidad financiera para el abono no son responsabilidad de Wingo.",
+                "imageDesktop": "Hola",
+                "show": true,
+                "options": [
+                    {
+                        "text": "Reembolso en tarjeta de crédito terminada en 5454",
+                        "order": 2
+                    },
+                    {
+                        "text": "Mi Tarjeta de Crédito terminada en 5454 se encuentra cancelada",
+                        "order": 1
+                    },
+                    {
+                        "text": "Reembolsar en voucher",
+                        "order": 3
+                    }
+                ]
+            }
+        ]
+    }
+}
